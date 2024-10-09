@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <div>
+        <a href="home.html">kembali ke home</a>
+        <h1>Formulir Pendaftaran Siswa</h1>
+        <table>
+            <tr align="justify">
+                <th><label for="nama">Nama Calon Siswa:</label></th>
+                <td><input type="text" id="nama"></td>
+            </tr>
+            <tr align="justify">
+                <th><label for="ttl">Tempat/Tanggal Lahir:</label></th>
+                <td><input type="date" id="ttl"></td>
+            </tr>
+            <tr align="justify">
+                <th><label for="agama">Agama:</label></th>
+                <td>
+                    <select name="agama" id="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kriste">Kristen</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr align="justify">
+                <th><label for="alamat">Alamat:</label></th>
+                <td><textarea name="" id=""></textarea></td>
+            </tr>
+            <tr align="justify">
+                <th><label for="nomor">No.Telp/Hp:</label></th>
+                <td><input type="text" id="nomor"></td>
+            </tr>
+            <tr align="justify">
+                <th><label for="kelamin">Jenis Kelamin:</label></th>
+                <td><input name="kelamin" type="radio" id="laki"><label for="laki">Laki-laki</label> <input name="kelamin" type="radio" id="perempuan"><label for="perempuan">Perempuan</label></td>
+            </tr>
+            <tr align="justify">
+                <th><label for="ekskul">Ekstrakulikuler:</label></th>
+                <td>
+                    <input type="checkbox" id="paskib"> <label for="paskib">Paskibra</label>
+                    <input type="checkbox" id="futsal"> <label for="futsal">Futsal</label>
+                    <input type="checkbox" id="basket"> <label for="basket">Basket</label>
+                    <input type="checkbox" id="renang"> <label for="renang">Renang</label>
+                    <input type="checkbox" id="tari"> <label for="tari">Tari</label>
+                </td>
+            </tr>
+            <tr align="justify">
+                <th><label for="file">Pas Foto:</label></th>
+                <td><input type="file" name="file" id="file"></td>
+            </tr>
+            <tr align="justify">
+                <td colspan="2"><button type="submit">Kirim</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
